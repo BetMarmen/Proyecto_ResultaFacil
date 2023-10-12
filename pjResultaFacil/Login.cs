@@ -21,8 +21,6 @@ namespace pjResultaFacil
         {
             MenuOpciones menu = new MenuOpciones();
             this.Hide();
-            menu.ShowDialog();
-            this.Close();
         }
     }
 }
