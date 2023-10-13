@@ -20,7 +20,7 @@ namespace pjResultaFacil
         private void btnInicioSecion_Click(object sender, EventArgs e)
         {
             string usuario = "Administrador"; // Usuario predeterminado
-            string contraseña = "ResultaFacil"; // Contraseña predeterminada
+            string contraseña = "resultafacil"; // Contraseña predeterminada
 
             if (txtUser.Text == usuario && txtPass.Text == contraseña)
             {
