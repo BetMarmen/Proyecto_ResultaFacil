@@ -61,7 +61,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(0, 122, 204);
+            panel1.BackColor = Color.FromArgb(224, 224, 224);
             panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
@@ -75,7 +75,7 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(23, 54);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(206, 210);
+            pictureBox1.Size = new Size(206, 221);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;

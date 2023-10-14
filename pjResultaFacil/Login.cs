@@ -16,7 +16,7 @@ namespace pjResultaFacil
         {
             InitializeComponent();
         }
-
+        //hicimos boton de sesion
         private void btnInicioSecion_Click(object sender, EventArgs e)
         {
             string usuario = "Administrador"; // Usuario predeterminado
@@ -28,13 +28,13 @@ namespace pjResultaFacil
                 this.Hide();
                 menu.ShowDialog();
                 this.Close();
-               
+
             }
             else
             {
-                MessageBox.Show("Usuario o contraseña incorrectos","LOGIN");
+                MessageBox.Show("Usuario o contraseña incorrectos", "LOGIN");
             }
-            
+
         }
 
         private void txtUser_Enter(object sender, EventArgs e)
@@ -59,7 +59,7 @@ namespace pjResultaFacil
                 txtPass.Text = "";
             txtPass.ForeColor = Color.LightGray;
             txtPass.UseSystemPasswordChar = true;
-           
+
         }
 
         private void txtPass_Leave(object sender, EventArgs e)
